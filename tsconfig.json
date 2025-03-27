@@ -1,3 +1,17 @@
 {
-  "extends": "typescript-config-silverwind",
+  "include": [
+    "${configDir}/**/*",
+    "${configDir}/**/.*",
+    "${configDir}/**/.*/**/*",
+    "${configDir}/**/.*/**/.*",
+  ],
+  "exclude": [
+    "${configDir}/**/node_modules/**",
+  ],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "nodenext",
+    "allowJs": true,
+    "noEmit": true,
+  }
 }
