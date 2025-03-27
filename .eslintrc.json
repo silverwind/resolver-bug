@@ -1,0 +1,19 @@
+{
+  "plugins": ["eslint-plugin-import-x"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "project": true,
+    "extraFileExtensions": [".html", ".vue", ".md", ".mdx"]
+  },
+  "rules": {
+    "import-x/named": [2]
+  },
+  "settings": {
+    "import-x/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import-x/resolver": {
+      "typescript": true
+    }
+  }
+}
