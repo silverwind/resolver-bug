@@ -4,8 +4,7 @@
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": "latest",
-    "project": true,
-    "extraFileExtensions": [".html", ".vue", ".md", ".mdx"]
+    "project": true
   },
   "rules": {
     "import-x/named": [2]
